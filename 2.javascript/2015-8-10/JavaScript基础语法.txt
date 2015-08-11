@@ -1,0 +1,188 @@
+html:xxs     xhtml1.1  
+html:5  ||  ！     html5
+JavaScript输出工具   调试错误
+A. alert()    
+弹窗 会以文本的原格式输出
+B. document.write()  
+输出到页面，会以html的语法解析里面的内容
+C. prompt(" "," ")  
+输入框("提示","默认值")
+D.console.log() 
+输出到调试工具控制台
+
+JavaScript引用方式
+1.嵌入在页面中
+<head>
+  <script type="text/javascript">
+  </script>
+</head>
+2.外部引用
+<head>
+   <script src=""></script>
+</head>
+js文件的后缀名  .js   后缀名可以为任何类型
+3.可以在超链接或是重定向的位置调用javascript代码
+4.在事件后面进行调用
+
+JavaScript命名规范
+1.严格的区分大小写
+  A=100  a=200
+  alert(a);
+2.变量命名是以字母或 下划线 或者 $ 开头  剩余部分 字母 数字  下划线  $
+
+3.不能以 关键字 或 保留字 来命名
+
+关键字   var  number string boolean  for  function if true  false   return  break...
+
+保留字
+完整的保留字列表如下：
+abstract
+boolean break byte
+case catch char class const continue
+debugger default delete do double
+else enum export extends
+false final finally float for function
+goto
+if implements import in instanceof int interface
+long
+native new null
+package private protected public
+return
+short static super switch synchronized
+this throw throws transient true try typeof
+var void volatile
+while with
+
+4.JavaScript自己的命名习惯
+  驼峰命名法：   getElementsByClassName
+  首字母大写：   Null Number
+5.命名一定要有意义
+  var  a1=100;
+  var  a2=200;
+  var  a3=105;
+
+  var num=0;
+  var str="string";
+
+6. ;  代表语句结束  
+
+变量： 存储数据的
+篮子 =  放东西
+变量 =  存储数据
+var a=100;
+
+alert(a);
+
+dcoument.write(a);
+
+console.log(a);
+
+
+var a=100;
+var b=a;
+
+如何声明一个变量：
+声明变量 需要通过var 这个关键字来修饰
+var 变量名 = 值;
+当浏览器解析 到 var 时候 知道你这是在声明变量
+1.先声明再赋值
+  var a;    //声明一个变量a
+  a=100;    //给变量a 赋值
+2.声明 并 赋值
+  var a =100；
+3.同时 声明多个变量
+
+4.同时声明多个变量 并 赋值
+
+
+1.js代码  script标签对里面
+2.同时声明多个变量的时候
+  var a,b,c;
+3.变量引用  
+
+  var num=100;
+  alert(num);  //引用变量名 不加引号
+
+
+
+变量是用来存储数据的   ,数据又是什么东西？
+var  a='100';
+如何能知道我们的变量里面存储的是什么类型的数据？
+通过typeof 运算符 来检测
+typeof 变量名      typeof(变量名)
+
+数据类型：
+一.初始类型
+1.undefined  未定义
+  当我们定义变量没有赋值   自动给变量赋值undefined
+   它就是一个标识符,作用：
+    1.用来检测变量有没有声明 
+    2.用来检测变量有没有赋值
+    
+2.null       空    数据类型 Object
+  占位符      var a=null;
+
+   有一箱子  =  玩具
+    
+   有一箱子   =   null
+   var obj={a:1,b:2,c:3,....};
+   obj=null;
+  作用：用来清空一个对象;
+3.number     数值 (整型10   浮点型1.3)
+4.string     字符串
+  只要通过  ""   ''  引起来  都是字符串
+5.boolean    布尔类型  对true    错 false
+
+二.引用类型
+Object
+ 
+
+1.初始类型  存储在内存栈区中  读取速度快
+类型        值          typeof数据类型
+undefined  undefined     undefined
+null        null         Object
+string     ""  ''        string
+number     数字          number
+boolean    true false    boolean
+
+
+2. 引用类型   存储在内存的堆区中 
+Object      包含相关属性和方法的一个集合  长度不是固定的
+           a={d1123,1000,2000}
+
+
+为什么JavaScript要把数据类型划分成这两种？
+初始类型    引用类型
+就是根据这些数据类型在内存中存放的位置来划分的。
+固定长度的数据：  放在内存的栈区中 ,访问的速度快
+不固定长度的数据：存放在内存的堆区中
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+              
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+

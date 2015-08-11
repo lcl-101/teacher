@@ -1,0 +1,90 @@
+JavaScript  前端会   后台也会
+
+html描述语言
+JavaScript程序语言   有逻辑  有思想
+我可以    1.做什么
+          2.做什么
+          a 100    9
+          if(a>10){
+             a-10
+          }else{
+             a+10
+          }
+我可以    重复
+          for(var i=0;i<100;i++){
+
+                alert(i)
+          }
+
+1.JavaScript诞生
+  ....
+  500kb\s
+  20+kb\s
+  注册网站=》信息
+  [allcky] 8-10 allcky
+  [123]   8-10   
+   
+
+
+  提交
+  30S  
+  JavaScript  数据验证
+  
+  
+2.JavaScript可以用来做什么
+  1)数据验证
+  2)将动态的内容写入到网页当中(ajax)
+  3)可以对事件做出响应
+    用户操作  点击   双击  鼠标移动  键盘
+  4)可以读写html中的内容
+    <p>段落文本</p>  获取  改变
+  5)可以检测浏览器
+    内核   宽高   ...
+  6)可以创建cookies
+  7)动画
+  
+
+  *可以php  jsp  .net ... + mysql  
+     写后台  nodejs 
+  ....
+   
+3. JavaScript历史   
+   Java  sun (版权) + 网景(火狐)(永久使用)  合作   JavaScript 
+   微软 IE  JScript   
+   开发人员 头疼
+   Nombas的 ScriptEase
+   网景   JavaScript 提交 ECMA   制作成标准
+   ie6-8  JScript    兼容问题
+   现在  IE9-11 
+   FF    JavaScript 
+   Chrome  
+4. JavaScript语法特点
+   1.基于对象
+   在JavaScript中 一切皆对象
+   2.基于事件  
+   JavaScript 没有事件   他没有存在的必要
+   3.松散型  （弱类型）
+   强类型 int a=10;     int a="aaa";
+   松散型 var a=1;     var a="str";
+   4.解释型
+   JavaScript脚本由浏览器去编译执行
+
+   JavaScript脚本  浏览器 支持  浏览器支持JavaScript
+
+   跨平台   脚本只需要写一次
+
+5.JavaScript组成部分
+
+  ECMAscript 基础 规定了变量 数据类型、运算符、流程控制、函数、面向对象等
+   Nodejs  ActionScript  JavaScript
+  BOM 浏览器对象模型  操作浏览器
+  DOM 文档对象模型    操作html文档    
+
+
+
+
+
+
+
+
+

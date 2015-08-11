@@ -1,0 +1,172 @@
+1.javaScript特点
+ 基于对象  基于事件  松散型  解释型
+2.JavaScript组成部分
+  ECMAscript   
+  BOM
+  DOM
+输出工具：  调试错误
+alert()
+document.write()
+prompt('提示信息','默认值')
+console.log();
+
+
+引用方式：
+1.嵌入到页面中
+2.外部引用  
+
+js文件 后缀名  .js
+
+命名规范：
+1.严格区分大小写
+2.是以 字母  _  $ 开头 ，其余部分可以是数字 字母下划线 $
+3.命名习惯
+  驼峰命名法   getElementById
+  首字母大写   Object
+4.不能以关键字  保留字 来命名
+5.命名要有意义
+6. ;   每条语句的结束  就要加分号    ==  换行
+变量： 变量就是一个容器，它可以用来存储 引用数据
+
+变量声明方式
+用 var 关键字来修饰
+1. var a;
+   a=100;
+2. var a=100;
+3. var a,b,c;
+4. var a=100,b=200,c=300;
+
+变量声明需要注意
+
+   var a=100;
+   var a;
+    alert(a);  //100
+
+   var a=100;
+   var a=300;
+
+
+   a=100;     
+  
+
+   a;   //报错
+
+   alert(typeof a);//undefined
+
+数据类型：
+根据数据在内存中存储的位置，分为两大类：
+1. 初始类型
+  undefined 未定义
+  他就是一个标识符，没有实际的意义
+  作用：   1.检测一个变量有没有声明
+            alert(typeof a);// 数据类型  undefined
+            
+           2.声明了一个变量没有赋值
+            var  a;
+            alert(a);   //值  undfined
+   var a;
+   var c=a+10;     //undefined 与任何数据 运算都是 NaN
+   NaN  not a Number
+
+   null 空
+   占位符
+   意义   0  对  数字    var a=0;
+          null   对   对象
+          ''    对   字符
+
+    用来做什么：  1.可以用来初始化 一个对象
+                    var  obj=null;
+                  2.可以用来清空一个对象
+   boolean 布尔类型
+   值  true   false
+   用来  判断 
+
+   string  字符串
+   通过  ""  ''  括起来的数据就是字符串
+
+   number  数值   整数  小数    
+   二进制   1010    parseInt(1010,2) 二进制转换成10进制    
+                    (十进制).toString(2)  把十进制转换成2进制
+   八进制  前导0    067
+   十六进制 前导0x  0x ffcc00
+    0xff     ==r
+    0xcc     ==g
+    0x00     ==b
+    科学计数法     1e1  =10
+                   1e-1   =0.1
+    最大值    Number.MAX_VALUE
+    最小值    Number.MIN_VALUE
+2. 引用类型
+
+
+
+
+
+数据类型      值                typeof检测结果
+
+undefined     undefined           undefined
+
+null          null                Object
+
+boolean      true   false         boolean
+
+
+string       ""  '' 特殊字符      string         
+
+number       数字(整数 小数)        number
+             二进制 八进制 十六进制
+              科学计数法  
+
+引用类型
+Object  Array  {}
+
+
+
+变量复制
+初始类型     传值        
+var a=100
+var b=a;
+a=200;
+alert(b);  //100 
+
+引用类型     传址
+
+var aa={name:'zhangsan'};
+var bb=aa;
+aa.name='lisi';
+alert(bb.name);  //lisi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
