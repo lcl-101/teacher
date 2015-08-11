@@ -1,0 +1,86 @@
+块标签： 独占一行  并 可以设置宽高
+行内标签： 在一行显示  不可以设置宽高
+
+行内块标签： IMG   input
+
+
+兼容问题：
+IE6 font-family 字体写成英文 Unicode 编码
+
+
+
+line-height:   1.设置文本行高
+               2.单行文本 在容器中居中(行内标签 行内块标签)
+
+
+
+盒子模型  布局
+
+图片在容器中  居中 
+text-align:center;   line-height:容器高度    font-size:图片的高度
+
+
+外边距 margin
+margin:100px;   代表  上下左右  都是100px
+margin:100px  90px;  代表 上下 100px      左右 90px
+margin:10px   20px  30px;  代表 上10px   左右 20px    下 30px
+margin:10px  20px  30px  40px;  上   右   下  左;
+
+内边距 padding
+padding:100px;  上下左右  都是100px
+
+          行内标签《=》行内块标签 《=》 块标签
+display:  inline   inline-block   block;
+
+把一个元素居中
+块标签：  margin:0 auto;
+行内标签、行内块标签：
+     1. 在父容器添加一个 text-align:center; 
+     2. 给它添加 display:block;   margin:0 auto; 
+
+
+/*标签初始化*/
+  body,p,input,h1,h2,h3,h4,h5,h6,form,dl,dd,ul,ol{
+	margin:0;
+	list-style:none;
+	padding:0;
+  }
+body{
+   background:#eee;
+   font:14px/1.5 "微软雅黑";
+}
+  img{
+	border:0;
+  }
+   a{
+	color:#333;
+	text-decoration:none;
+   }
+
+浮动：
+浮动改变了文档流排列方式
+p 块  float：left；   能在一行排列
+b 行内标签            width  height
+
+float:left   right;
+
+top:
+
+ #top-box   width:100%  height:37px;  border-bottom:1px solid red;background:#eee;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+标签使用
+1.标签 必有属性 写全
+如 <a href=""></a>
+2.单标签
+  <img src="" />
+3.行内标签 不能 嵌套  块标签
+  错：<a href="#">
+         <div></div>
+      </a>
+  符合规范：
+   <a href="#">
+      <i></i>   <span></span>
+   </a>
+
+命名空间  zxy_
+
+<div class="zxy_top">
+    <div class="top-left"></div>
+    <div class="top-link"></div>
+</div>
+
+
+<div class="zbq_top">
+
+</div>
+
+
+
+
+客户端   《=》 服务器
+
+
+Client 访问一个页面 每一个链接
+请求：
+http://www.baidu.com/images/1.jpg
+
+淘宝  攻击
+10000  *   100
+10000  *   1
+
+
+
+1.  sprite精灵
+2.  字体图标
+
+
+
+css3  border-radius:  50%     10px
+
+框架
+通常用于后台 
+
+前台页面不用 frameset
+
+可以把浏览器的窗体 划分成几部分  每一部分对应一个 html文件
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

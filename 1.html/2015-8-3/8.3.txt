@@ -1,0 +1,96 @@
+>让一个元素 让一个容器居中  margin: 0 auto;
+
+>当一个父容器高度auto 并且它里面元素都浮动之后  ,有可能造成  父容器高度为0   
+1.overflow:hidden;
+2.在最后一个元素后边添加
+  <div style="clear:both;"></div> 
+
+
+>font:12px "微软雅黑";
+
+>margin  如果是行内标签  margin 只有左右  没有上下
+
+
+>容器居中
+1.行内标签  text-align:center
+  行内块标签  text-align:center;
+2.块标签    margin:0 auto;
+
+> overflow：hideen   visible auto scroll;
+
+
+>a:hover{
+
+}
+
+
+>问题：
+1.background 
+2.浮动
+3.a：hover
+
+1.margin-right:20px;
+ 2. margin-left:30px;
+
+
+当我们同时给两个容器(左20 右30)外边距的时候，
+外边距=左边+右边
+50 =    20 + 30 
+
+
+当我们同时给两个容器(上20 下30 )外边距的时候
+外边距=30px 最大的外边距(不会相加)
+
+
+border:1px solid red;
+
+border-width:10px;
+border-style:solid;
+border-color:red;
+
+浮动
+文档流 行内标签在一行显示不可以设置宽高
+       块标签独占一行 可以设置宽高
+       行内块标签 在一行显示 可以设置宽高
+
+浮动 改变文档流排列方式
+     行内标签 可以设置宽高
+     块标签   可以在一行显示
+     行内块标签 
+     
+背景图片：
+background-color
+
+background-image:url();
+background-repeat:repeat no-repeat repeat-x repeat-y;
+background-position:x y;
+                    center center
+                 x:left center right
+                 y:top center bottom
+               
+                  10px   10px
+
+                  10%  50%
+background:[颜色] url()  重复  定位;
+
+background-attachment:fixed  |  scroll;
+fixed  图片是固定在当前位置 相对于浏览器的00点定位 不跟随滚动条移动
+
+scroll 图片跟随滚动条滚动  图片相对于盒子的00点定位
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

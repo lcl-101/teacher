@@ -1,0 +1,16 @@
+body,p,input,h1,h2,h3,h4,h5,h6,form,dl,dd,ul,ol{
+	margin:0;
+	list-style:none;
+	padding:0;
+}
+body{
+   background:#eee;
+   font:14px/1.5 "微软雅黑";
+}
+img{
+	border:0;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}

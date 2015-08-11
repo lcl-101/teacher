@@ -1,0 +1,276 @@
+网站
+网页    .html(常用)      .htm
+网页基础组成    文字和图片
+
+制作网站流程：
+前台(PC端+移动端  html5+css3)：
+1.需求分析
+2.根据需求来设计网站首页
+3.根据首页风格、设计子页面
+4.页面布局   div+css+JavaScript+Ajax+Bootstrap ....(xhtml1.1+css2.0) 
+后台：
+5.给网站添加功能  php jsp  asp  node.js ..
+6.测试网站
+7.网站上线  (服务器  ||  空间=IP <->域名 例如 baidu.com)
+  服务器  windows server   Linux  
+  一级域名   baidu.com
+  二级域名   zhidao.baidu.com
+8.SEO 搜索引擎优化  (百度 google 搜狗 搜搜 360搜索 ...)
+9.录入数据
+
+HTML超文本标记语言   Hyper Text  Markup Language
+
+W3C  万维网联盟  维护升级 html  css  html5 css3
+
+
+浏览器   解析 html css   开发   
+ 从左到右
+
+ 浏览器厂商IE FF  Chorme  = W3C  
+
+
+常用标签
+
+h1-h6   标题  SEO 
+b strong
+i  em 
+u
+s  strike del
+
+hr  
+
+<br/>
+
+<p>段落</p>
+
+
+<pre></pre>
+
+<a href="#" target=""></a>
+target=""  _self   _blank   
+所有标签都有属性：
+title=""     style=""   id=""  class=""  
+
+锚链接
+<a href="#name"></a>
+
+<a name="name"></a>
+
+实体  &quot;  "      &nbsp;   &lt;   &gt;   &copy;
+
+<img src="" alt="" title=""/>
+绝对路径   http://www.baidu.com/images/1.jpg
+相对路径   ../images/1.jpg
+
+列表  一组相关数据
+ul  li  无序列表
+ol  li  有序列表
+dl  dt  dd  自定义列表
+
+表格：  1.展示数据
+        2.布局
+
+<table>
+  <tr>
+   <td>1-1</td><td>1-2</td><td>1-3</td>
+  </tr>
+  <tr>
+   <td>2-1</td><td>2-2</td><td>2-3</td>
+  </tr>
+</table>
+
+表单  提交数据    验证数据
+<form action="提交给那个后台页面" method="get||post">
+
+get   http://www.baidu.com?user=123&pwd=123
+post  发送一个请求   user=123&pwd=123
+<input type="text" name="user">
+<input type="password"  name="pwd" >
+<label for="name"></labe> 
+<input type="radio" name="sex" value=""  id="name" checked>
+
+<label for="name"></labe>
+<input type="checkbox" name="fav[]" value="" id="name">
+
+<input type="file" name="">
+
+<input type="hide" name="">
+<input type="submit"  value="">   reset  button
+<select name=""  size="">
+   <option value=""  selected></option>
+</select>
+
+<textarea name="" cols=""  rows="">
+</textarea>
+
+
+</form>
+
+
+ 
+css 
+DIV  划分区块  把问题细化 
+
+div标签   无意义 容器   块
+css层叠样式表
+
+DIV 内容   .html
+CSS 表现   .css
+
+控制页面的方式
+1. 行内样式
+<div style=""></div>
+2. 嵌入样式
+<head>
+<style type="text/css" >
+</style>
+</head>
+3. 外部样式
+<link  rel="stylesheet" type="text/css" href="" />
+4. 导入样式
+css文件中引入public.css
+@import url();
+
+优先级
+行内样式 >  嵌入  外部   导入    谁在最后 谁的样式启作用
+
+选择器：
+html:
+  <div id="idname"></div>
+css:
+#idname{
+   width:100px;
+   height:100px;
+}
+
+1.#  id   当前页面id名称唯一
+<div id="idname"></div>
+ 
+2.类选择器
+<div class="classname"></div>
+
+.classname{
+
+}
+3.标签选择器
+<div></div>
+
+
+div{
+
+}
+4. 群组选择器
+div,p{
+   width:100px;
+   。。。。   
+}
+5. 交叉选择器
+tag 5
+<div class="one"  id="two"></div>
+         1           10
+<ul class="one">
+  <li></li>
+</ul>
+
+.one{
+  width:100px;
+  height:100px;
+}
+div#two 
+
+6. 后代选择器
+大明  儿子  孙子
+.box  p     a
+张三  儿子  孙子
+.box2  p     a
+7. 通用选择器  *
+8. 伪类选择器
+a:hover
+p:hover
+
+p:first-letter{
+   
+}
+
+
+/* 注释 */
+
+
+
+行内标签    在一行显示  不能设置 宽高 
+    文本修饰  b i  u  del s   a  td
+块标签      独占一行    可以设置宽高
+  h1-h6 p  ul li ol li dl dt dd form table tr  div   pre 
+行内块标签   在一行显示 可以设置宽高
+  img   input 
+display:inline   inline-block  block   none;
+         行内     行内块        块      隐藏
+文档流：
+
+文字属性
+字体  font-family:"","","";   继承
+ IE6 不要用中文
+
+大小
+  font-size:12px;   继承
+color:red ||  #333 || rgb(0,0,0)   || rgba(0,0,0,0);
+   0-255   继承
+
+font-weight:blod  继承
+
+font-style
+
+line-height: px|| 1.5   设置行高   继承
+             容器 文字   line-height  = 容器高度
+
+浮动   改变文档流 
+float:left     行内标签   可以设置宽高
+               块         可以在一行显示 
+               行内块
+
+层向上了一层
+容器 
+
+1.background
+2.padding
+3.名称定义
+4.选择器
+5.浮动 
+选择器  命名：   不能数字开头  开头必须为字母   _ -  1
+1. id选择器  id名称在当前页面唯一 
+<div id="name"></div>
+#name
+2. 类名选择器    针对的多个标签
+<div class="one two "></div>    16
+<p class="one three"></p>      26
+.one{
+   background:red;
+}
+div.one
+p.one
+3.tagname  a
+
+<div class="box">
+
+
+行内标签  在一行显示  不能设置宽高  margin 没有上下 有左右
+ 
+块标签    独占一行   可以设置宽高     
+行内块标签   在一行显示 可以设置宽高
+
+文档流：
+
+
+
+浮动：   改变文档流的，脱离了文档流
+给元素浮动
+行内标签： 可以设置宽高  margin 
+块标签：   在一行显示 
+行内块标签   在一行显示 可以设置宽高
+
+上浮动一层    
+
+
+
+
+

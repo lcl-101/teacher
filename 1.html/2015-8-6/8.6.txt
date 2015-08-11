@@ -1,0 +1,67 @@
+IE 8-11     FF  Chrome
+
+IE6-8
+position：static;  静态定位   默认
+不支持 left  top  right  bottom
+
+
+position:absolute; 绝对定位
+top
+left
+right
+bottom
+脱离文档流
+
+
+
+当我们给一个元素绝对定位 ，那么这个元素就会按照文档流去向上查找觉有定位属性的父容器，若是找到 相对于具有定位属性的父容器去定位，没有找到的话，则相对于body去定位;
+
+如果我们需要让 定位元素 相对与父容器(前辈)去定位  我们需要给父容器 一个定位属性。
+
+
+通过定位水平 垂直居中方式
+第一种：
+margin:auto auto;
+left:0;
+right:0;
+top:0;
+bottom:0;
+
+第二种：
+left:50%;
+margin-left:-150px;
+top:50%;
+margin-top:-50px;
+
+
+
+透明：
+1.css
+只支持background使用透明图片
+img{
+background:url(opacity.png) no-repeat 0 0;//正常调用
+_background:none; 
+filter:progid:DXImageTransform.Microsoft.AlphaImageLo
+ader(enabled=true, sizingMethod=image,src="opacity.png");
+}
+2.
+IE6兼容透明png图片   
+<img src="a.png">
+background:url(opacity.png) no-repeat 0 0;
+
+<script src="png.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

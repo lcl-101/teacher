@@ -1,0 +1,163 @@
+文本修饰
+加粗
+<b></b>
+<strong></strong>
+倾斜
+<i></i>
+<em></em>
+下划线
+<u></u>
+删除线
+<s></s>
+<strike></strike>
+<del></del>
+标题
+<h1 align="left center right"></h1>
+...
+<h6></h6>
+
+<hr/>
+
+<br/>
+
+<p></p>
+
+<pre></pre>  按照原格式输出
+
+&lt;  <
+&gt;  >
+&nbsp;
+&copy;  
+&amp;   &
+&quot;  "
+
+
+<a href="#" target="">打开页面</a>
+
+#  代表当前页面
+
+target=""  _blank 新窗口打开
+           _self  在当前窗口打开 (默认)
+
+title ="" 
+
+相对路径 相对于当前位置
+ ../images/1.jpg
+绝对路径 
+http://www.baidu.com/pic/1.jpg
+
+锚链接
+你要跳转到当前页面的那个位置？<a href="#name"></a>
+
+
+你要跳转到我这里<a name="name"></a>
+
+
+<html>
+<head>
+    <title>网页标题</title>
+    <meta  charset="utf-8">
+</head>
+<body>
+
+
+</body>
+</html>
+
+charset =""
+  utf-8 万国码 
+  gb2312  
+  gbk
+
+<img src="" width="" height="" alt="" title="" border="1"/>
+src  相对路径 绝对路径
+file:///d:images/1.jpg
+
+usemap="maps"
+
+<map id="maps" name="maps">
+</map>
+列表
+<ul type="">
+   <li></li>
+</ul>
+
+<ol type="1 a A i I">
+   <li></li>
+</ol>
+
+表格：
+格式：
+<table>
+    <tr>
+       <td>&nbsp;</td>
+       <td>第一行第二列</td>
+    </tr>
+    <tr>
+       <td>第一行第一列</td>
+       <td>第一行第二列</td>       
+    </tr>
+</table>
+1.展示数据
+
+2.table布局
+
+表单
+
+注册
+用户名：
+密码：
+性别：
+出生年月：
+兴趣爱好：
+毕业院校：
+学历：
+民族：
+家庭住址：
+邮箱：
+手机号：
+电话：
+身份证：
+个人评价：
+
+
+密保：
+
+
+登录：
+
+ 账号：
+ 密码：
+ 验证码：    
+ 
+
+表单：
+<form action="" methed="get||post">
+    <input  type=""   value=""  name="" > 
+    type=""  
+       text  文本框
+       password  密码框
+       radio   单选   label
+       checkbox  多选   label
+       file   文件
+       
+       submit 提交表单
+       reset  重置表单
+       button  自定按钮
+     <input type="hide" name="ip" value="202.99.192.66">
+     <select name="" size="">
+	  <option value="" selected></option
+     </select>
+   
+     <textarea name="" cols="" rows="" value="">
+     </textarea>
+</form>
+
+
+
+
+
+
+
+
+

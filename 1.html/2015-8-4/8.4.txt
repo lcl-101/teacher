@@ -1,0 +1,32 @@
+input 问题
+在谷歌浏览器中在火狐浏览器 input边框为2个像素 样式 inset 因此我们需要重置 input样式
+input{
+    border:1px solid red;
+}
+
+
+小米导航
+width 1240px
+height:50px;
+
+
+w 226px  padding-left20   border 1px+  padding-left 2px
+
+hover   border-left:3px 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

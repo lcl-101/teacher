@@ -1,0 +1,18 @@
+/*初始化标签样式  2015-7-31*/
+body,ul,ol,dl,dd,input,h1,h2,h3,h4,h5,h6,p,form{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+body{
+	font:14px/1.5 arial,"Microsoft Yahei","Hiragino Sans GB",sans-serif;
+	color:#8c8c8c;
+	background-color:#fff;
+}
+img{
+	border:0;
+}
+a{
+	color:#333;
+	text-decoration:none;
+}

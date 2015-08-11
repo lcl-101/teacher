@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <title> new document </title>
+  <meta charset="utf-8">
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+ </head>
+
+ <body style="height:3000px;">
+	<fieldset>
+		<legend>fieldset名称</legend>
+		<!--  action.php?user=1&pwd=1&sex=man -->
+  <form action="action.php" method="get">
+	账户：<input type="text" name="user" ><br/>
+	密码：<input type="password" name="pwd" ><br/>
+	<hr/>
+	性别：
+	<label for="nan"> 男：</label>
+	<input type="radio"  name="sex" value="man" id="nan">
+	<br/>
+	<label for="woman"> 女：</label>
+	<input type="radio"  name="sex" checked id="woman" value="women">
+	<hr/>
+	爱好：<br/>
+	电影 <input type="checkbox" name="fav[]" value="dy"> &nbsp;&nbsp;&nbsp;
+	读书 <input type="checkbox" name="fav[]" value="ds" checked>&nbsp;&nbsp;&nbsp;
+	玩游戏<input type="checkbox" name="fav[]" value="play" checked>
+	<hr/>
+	上传头像 <input type="file" name="poto">
+	自我评价 
+	<textarea name="myinfo" cols="50" rows="10"></textarea>
+	<hr/>
+	家乡
+	<select name="jx">
+		<option value="ty">太原</option>
+		<option value="yc">榆次</option>
+		<option value="gj" selected>古交</option>
+		<option value="ll">吕梁</option>
+	</select>
+	<br/><input type="submit" value="提交">
+	<input type="reset" value="重置">
+	<input type="button" value="自定义按钮">
+	</form>
+	</fieldset>
+
+ </body>
+</html>

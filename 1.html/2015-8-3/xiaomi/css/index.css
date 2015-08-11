@@ -1,0 +1,105 @@
+@import url(public.css);
+/*#top start*/
+#top-box{
+	width:100%;
+	height:37px;
+	border-bottom:1px solid #e0e0e0;
+	background:#fafafa;
+}
+.top{
+	width:1240px;
+	height:100%;
+	margin:0 auto;
+}
+.top .top-left{
+	width:auto;
+	height:100%;
+	float:left;
+	line-height:37px;
+}
+.top .top-right{
+	width:auto;
+	height:100%;
+	float:right;
+	line-height:37px;
+}
+.top span{
+	color:#e0e0e0;
+	padding:0 15px;
+}
+.top a{
+	color:#999;
+	font-size:12px;
+}
+.top a:hover{
+	color:#333;
+}
+/*top end*/
+/*#logo start*/
+#logo-box{
+	width:1240px;
+	height:110px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.logo{
+	float:left;
+	width:70px;
+	height:70px;
+	margin-top:25px;
+}
+.logo img{
+	width:100%;
+}
+
+.search-box{
+	float:right;
+	width:auto;
+	height:100%;
+	/* background:yellow; */
+}
+.search-box-top{
+	width:auto;
+	height:32px;
+	padding-top:23px;
+	border:1px solid red;
+}
+.search-box-top a{
+	color:#8C8C8C;
+	padding-left:20px;
+	background:url(../images/clock.gif) no-repeat 0 0;
+}
+.search-box-top a:hover{
+	background-image:url(../images/clock_hot.jpg);
+	color:#FF4A00;
+}
+.search-box-bottom{
+	width:auto;
+	height:40px;
+	background:green;
+}
+.search-b-l{
+	width:auto;
+	height:100%;
+	float:left;
+}
+.search-b-car{
+	float:right;
+	width:88px;
+	padding-left:20px;
+	height:38px;
+	text-align:center;
+	border:1px solid #FFDB3D;
+	line-height:40px;
+	background:#FFDB3D url(../images/car.jpg) no-repeat 30px center;
+}
+.search-b-car:hover{
+	border:1px solid red;
+	background:#fff url(../images/car_hot.jpg) no-repeat 30px center;
+}
+/*#logo end*/
+
+
+
+

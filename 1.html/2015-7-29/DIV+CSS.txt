@@ -1,0 +1,145 @@
+行内标签：在一行排列
+b strong i u s del em  a     td
+块标签：独占一行
+h1-h6  ul li ol  dl dt dd  p     table tr  pre form   
+div
+ 
+ img  input
+文档流：行内标签：在一行排列 块标签：独占一行
+
+语义化标签：
+b strong i u s del em h1-h6  ul li ol  dl dt dd   p
+
+<b><a href="#">链接</a></b>
+div  无意义 块标签   容器
+<div></div>
+
+
+div 容器  没意义 存放内容     index.html
+
+CSS 层叠样式表  改变标签的表现方式      index.css
+
+控制页面样式方式：
+1.行内样式
+<div style="属性1:值1;属性2:值2;"></div>
+2.嵌入样式  放在head标签里面
+<style>
+标签名{
+    属性1:值1;
+    属性2:值2;
+    。。。。
+}
+</style>
+3.外部样式表 
+<link rel="stylesheet" type="text/css"  href="" />
+4.导入样式 css
+@import url(css路径);
+
+index.html => index.css  => base.css     color:#333;
+pro.html   => pro.css    =>
+
+
+
+样式表优先级
+行内样式>     嵌入样式，外部引用，导入样式
+嵌入样式，外部引用，导入样式   谁在最后 用谁的样式
+
+css注释
+/*  注释内容  */
+
+选择器：  怎么选择到要改变样式指定标签
+1.标签选择器 
+
+
+2. ID选择器    名称当前页面唯一
+#idname{}
+
+<div id="idname"></div>
+
+3. 类选择器  
+.classname{}
+
+<div class="classname"></div>
+
+4.群组选择器     多个选择器 通过逗号隔开  
+#idname,.classname,...{
+}
+
+<div id="idname"></div>
+<div class="classname"></div>
+
+5. 交叉选择器
+
+6. 后代选择器    
+张三 儿子 孙子
+.zhangsan  p    a
+
+.floor p{}
+<div class="floor">
+    <p></p>
+    <p></p>
+</div>
+
+.floor2{}
+<div class="floor2">
+    <p></p>
+    <i></i>
+</div>
+李四 儿子 孙子
+.lisi  p    a
+7. * 通用选择器 
+
+伪类选择器
+
+选择器:hover{
+   样式
+}
+
+
+大明  儿子 小明
+选择器优先级
+
+  id > class>tagname
+
+
+
+
+<i id=one class="fonts"></i>
+
+
+
+
+a{
+   color:#333;
+   text-decoration:none;
+}
+.one a,.one i,.one p{
+   color:red;
+}
+div{
+  color:red;
+
+}
+.one{
+   color:blue;
+}
+<div class="one">
+     <a href="#">首页</a>
+     <a href="#">首页</a>
+     <i>首页</i>
+     <p>首页</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

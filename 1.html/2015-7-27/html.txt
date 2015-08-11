@@ -1,0 +1,96 @@
+
+网站：一组内容相关的网页集合 	
+ 网页：文字+图片     (声音、视频、动画)
+  网页文件的后缀名  .html(常用)    .htm 
+
+通过浏览器访问网页
+  
+
+
+制作网站流程：
+1.获取客户需求 分析客户需求
+前台：
+2.首页设计=》二级页
+3.页面布局
+4.添加交互效果
+后台：
+1.后台编写语言 php jsp  asp  node.js
+2.数据库
+3.测试
+4.域名     baidu.com
+  IP 空间     存放网站
+
+html 超文本标记语言   W3C
+Hyper Text Markup  Language 
+PC端开发所用版本xhtml 1.1
+
+html标准  规范    浏览器
+                  开发者
+
+
+单标签:   <br/> <hr/>
+双标签：
+标题标签： 
+h1-h6  默认左对齐 align="left" 
+       居中对齐   align="center"               右对齐     align="right"
+<h1><font color='red'>这是标题一</font></h1>
+<h2>这是标题二</h2>
+<h3>这是标题三</h3>
+<h4>这是标题四</h4>
+<h5>这是标题五</h5>
+<h6>这是标题六</h6> 
+  
+段落标签：  <p></p>
+
+SEO 搜索引擎优化  
+
+
+a标签
+相对地址：我家在梁宇轩家隔壁
+
+../   返回上一级
+./    当前文件夹 
+
+
+绝对地址：中国山西省太原市迎泽区双塔西街40号
+           http://www.baidu.com/1.jpg 
+
+锚链接
+我要跳到那里？<a href="#zongzhi">教学宗旨</a>
+
+你要跳到我这里！<a name="zongzhi"></a>
+  
+
+百度     蜘蛛（机器）
+谷歌     蜘蛛（机器）
+搜狗     蜘蛛（机器）
+html主体结构
+
+<html>
+<head>
+<title>网页标题</title>
+ <meta name="keywords" content="衣服、上衣、裤子"/>
+ <meta name="description" content="当前页面的一些描述"/>
+ <meta http－equiv="Content－Type" content="text/html; charset=utf-8"> 
+</head>
+<body>
+</body>
+</html>
+
+编码方式：
+ utf-8   万国码  （包含世界大部分语言 简体中文 繁体中文 英语  法语 俄语 ....）   1个汉字 占用4个字节
+ gk2312  简体中文        1个汉字 占用2个字节
+ gbk     简体中文 繁体中文 ()  1个汉字 占用2个字节
+
+
+
+
+
+
+
+
+
+
+
+
+
