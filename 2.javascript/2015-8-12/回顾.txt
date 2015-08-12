@@ -1,0 +1,48 @@
+1.数据类型
+按照在内存中存储的位置，来划分成2类：
+1.初始类型
+   undefined   未定义
+   作用：1.检测变量有没有声明
+         2.检测变量有没有赋值
+   null   空 
+        占位符
+         1.初始化对象   var  obj=null;
+         2.清空对象  var obj={};   
+                     var  obj=null;
+   number   整数  小数    
+     二进制    parseInt(1111,2)
+               (十进制).toString(2)
+     八进制 0    0-7
+     十六进制   0x   0-9a-f
+   string  
+     ""    ''
+   boolean
+     true    false
+2.引用类型
+    Object
+
+如何能知道变量中存储的是什么类型的数据？
+typeof 变量      number 返回结果字符串
+目前返回的结果:
+undefined  object   string number boolean 
+
+变量的复制：  
+变量  初始类型   传值
+var a=100;
+var b=a;
+a=200;
+alert(b);
+变量  引用类型   传址
+
+
+
+
+
+
+
+
+
+
+
+
+
