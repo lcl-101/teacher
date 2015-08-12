@@ -1,0 +1,92 @@
+流程控制
+流程：按照一定的顺序去执行
+流程控制：通过一些语句，让代码按照指定的条件去执行
+
+代码执行顺序：
+1.顺序结构(基本结构)  安装书写顺序一行一行去执行
+2.选择结构  按照某个条件 有选择去执行代码
+  
+  条件  表达式  其他任何类型数据   隐式数据类型转换
+   undefined   false
+   null        false
+   boolean     true   false
+   number      除了0为false  其他都为true
+   string      '' false   其他都为true
+     
+   object       true 
+  单路分支
+  if(条件){
+      //条件满足要执行代码
+  }
+  双路分支
+  if(条件){
+    条件成立执行这里
+  }else{
+    条件不成立执行这里
+  }
+  多路分支
+  if(条件1){
+      条件1成立代码
+   }else if(条件2){
+      条件2成立代码
+   }else if(条件3){
+      条件3成立代码
+   }else{
+      都不成立代码
+   }
+  
+switch(值){
+  case 值1:
+     执行代码;
+  break;
+  case 值2:
+     执行代码;
+  break;
+  case 值3:
+     执行代码;
+  break;
+  default:
+     执行代码;
+}
+
+
+3.循环结构
+10次：
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+document.write('<h2>北京欢迎您!</h2>')
+
+
+1000次？
+重复执行代码；
+循环：1.重复执行指定次数的某段代码
+      2.我们可以借助 变化值
+
+1 2 3  4 5 67 ......1000
+
+
+for(var i=0;i<1000;i++){
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
