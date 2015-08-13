@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	//1.输出到页面 1-100 之间的偶数
+	// 判断  10%2==0        1-100  借用循环的变化值i
+	// for(var i=1;i<101;i++){
+	// 	if(i%2==0){
+	// 		document.write('<p style="background:green;">偶数'+i+'</p>')
+	// 	}else{
+	// 		document.write('<p style="background:red;">奇数'+i+'</p>')
+
+	// 	}	
+	// }
+    //1-100的和
+ //    var js='';
+ //    var os='';
+ //    '2 4 6 8 10 12 14 ...'
+	// for(var i=1;i<101;i++){
+	// 	if(i%2==0){
+	// 		os+=i+' ';
+	// 	}else{
+	// 		js+=i+' ';
+	// 	}
+	// }
+	// document.write('<p>偶数:'+os+'</p>'+'<p>奇数:'+js+'</p>')
+	// // alert(sum)
+
+	// for(var i=100;i<200;i++){
+	// 	if(i%3==1){
+	// 		if(i%4==2){
+	// 			if(i%5==3){
+	// 				alert(i);
+	// 			}
+	// 		}
+	// 	}
+	// }
+	// for(var i=100;i<200;i++){
+	// 	if(i%3==1 && i%4==2 && i%5==3){
+	// 		document.write('操场上的人数为：'+i+'<br/>')
+	// 	}
+	// }
+	// i 鸡  +   j兔子  =35
+	// for(var i=0;i<=35;i++){ 
+	// 	for(var j=0;j<=35-i;j++){ 
+	// 		if(i+j==35&&i*2+j*4==94){
+	// 			alert('鸡'+i+'兔子'+j)
+	// 		}
+	// 	}	
+	// }
+	// for(var i=0;i<=35;i++){
+	// 	if((94-2*i)/4+i==35){
+	// 		alert('鸡'+i+'兔子'+(35-i));
+	// 	}
+	// }
+	document.write('<table border=1>')
+	for(var j=0;j<10;j++){
+		document.write('<tr>');
+		for(var i=0;i<10;i++){
+			document.write('<td>'+第几行第几列+'</td>');
+		}
+		document.write('</tr>');
+	}
+	document.write('</table>')
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
