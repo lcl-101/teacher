@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	function table(row,col,color1,color2){
+		document.write('<table border=1>')
+		for(var j=0;j<row;j++){
+			if(j%2==0){
+				document.write("<tr style=\"background:"+color1+";\">");
+			}else{
+				document.write("<tr style=\"background:"+color2+";\">");
+			}
+			for(var i=0;i<col;i++){
+				document.write('<td>第'+(j+1)+'行,第'+(i+1)+'列</td>')
+			}
+			document.write('</tr>');
+		}
+		document.write('</table>')
+	}
+	
+	table(10,10,'red','green');
+	table(5,5,'blue','yellow');
+	table(15,5,'pink','blue')
+
+
+
+
+	
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
