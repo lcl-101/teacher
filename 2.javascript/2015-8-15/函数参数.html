@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	// alert(arguments);
+	function tell(a,b,c){
+		// alert(a+" "+b+" "+c);
+		// console.log(arguments);
+		// console.log(arguments.callee)
+		var sum=0;
+		for(var i=0;i<arguments.length;i++){
+			sum+=arguments[i];
+		}
+		alert(sum)
+	}
+	function say (a,b){	
+	}
+	tell(111,222,3334433,44433,5555,3334,333,555,7777,111,332,4423,423);
+	say('a','b')
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

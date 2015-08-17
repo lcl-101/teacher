@@ -1,0 +1,136 @@
+1.javascript特点：
+  基于对象  基于事件驱动 松散型 解释型语言
+2.JavaScript组成
+  ECMAscript  语法  函数 对象 运算符 数据类型 流程控制 等等
+  BOM 浏览器对象模型
+  DOM 文档对象模型 
+3.命名规范  变量 function  对象
+  1.严格区分大小
+  2.命名要以字母 下划线 $开头 其余的部分可以为 数字 字母 下划线 $ 
+  3.不能以关键字 或 保留字来命名
+  4.命名习惯
+    驼峰命名法   getElementsByClassName
+    首字母大写   Object
+  5.命名要有意义
+  6. ;   语句结束   回车
+4.变量: 存储 引用 数据的一个容器
+  变量的声明方式：
+  var 关键字开头
+  1.先声明在赋值
+  2.声明并赋值
+  3.声明多个变量 (，)
+  4.声明多个变量 并赋值
+5.
+
+
+var a=10;
+var a;
+
+var a=10;
+var a=200;
+
+
+var a=100;
+a=20;
+
+a=100;
+
+functin aa(){
+  alert(a)
+}
+
+
+var a=100;
+
+
+aa=100;
+window.aa=100
+alert(window.aa)
+
+
+aa;
+
+数据类型：  按照这些数据在内存中存储的位置来划分
+1.初始类型(固定长度一些数据 存储在 内存的栈区 存取速快)
+  undefined   undefined   typeof undefined
+  用在： 1.我们声明了变量 没有赋值  undefined
+         2.没有声明  undefined
+   null
+   null    null    typeof object 
+        占位   初始化对象    var obj=null;
+               清空对象
+    
+   string  ""  ''       string
+   number  数值 整数 小数      number
+    var num=0;
+   boolean  true false   typeof  boolean
+
+
+
+   alert（typeof 10）   "number"
+2.引用类型 (引用类型 存储在堆区 存储大)
+  
+  Object 
+
+
+
+运算符 和 操作数 的组合 表达式
+
+ ++1
+
+a>10
+
+
+++ 
+在前  先运算 后执行
+在后  先执行 再计算
+--
+在前  先运算 后执行
+在后  先执行 再计算
+
+
+
+
++
+数学运算
+ 链接字符串
+
+
+比较运算符 
+
+< <=  > >=  == !=   ===  !==
+
+给我们的结果  boolean   true  false
+
+ 数值 正常比较
+ 两个字符串
+    比较ASCII 码 
+ 字符串 数值  隐式数据类型转换
+ "a">10   
+   字母 不能  NaN
+   数值类型的字符串 转换  数值
+   ""   0
+
+ boolean  true  false   1  0
+ null   0  
+ undefined   NaN
+
+  == 判断值是不是相等
+     字符串  比较 ASCII 
+     数值    大小
+     引用类型   在内存中的位置
+  ===
+     不仅比较 数值是否相等  还有要比较数据类型
+
+赋值运算符
+-=  *=  /= %=
++=
+a+=10    a=a+10
+
+
+
+
+
+
+
+

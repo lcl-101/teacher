@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	function foo(x){
+		var tmp=3;
+		return function(y){
+			return x+y+(++tmp);
+		}
+	}
+	var bar=foo(2);
+	var a=bar(10);
+	var b=bar(10);
+	alert(a+','+b);
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

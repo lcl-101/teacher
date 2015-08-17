@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	var x=1;
+	function aa(){
+		var x=10;
+		function bb(){
+			var x=100;
+			function cc(){
+				var x=1000;
+				alert(x);
+				// x=200;
+			}
+			cc();
+			// alert(x);
+		}
+		bb();
+	}
+	aa();
+	// alert(x);
+	// 1000  100  10  1
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
