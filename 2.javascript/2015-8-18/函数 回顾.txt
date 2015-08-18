@@ -1,0 +1,200 @@
+函数：
+将完成某一特定功能的代码集合起来，可以重复调用。
+function sum(val){
+   //完成功能代码
+   ++val
+}
+sum(10)
+sum(20)
+函数的声明方式
+1.以function关键字形式
+
+  function 函数名 ([参数1],[参数2],...){
+      //函数体
+      return;
+  }
+return 作用： 1.终止函数执行
+              2.给函数一个返回值
+
+2.以字面量的形式声明
+  var 变量=function ([参数1],[参数2],...){//匿名函数
+      //函数体
+      return;
+  }
+
+3.以对象的形式来声明
+  var 变量=new Function ("[参数1]","[参数2]",...,"函数体")
+
+函数的调用方式
+1.  函数名()
+    变量()
+2. 事件调用
+
+   对象.事件=function(){
+        //用户 触发某一事件  完成功能
+   }
+
+
+3. 自调用  
+   (function(形参){
+        //函数体
+    })(实参)
+
+
+函数 声明 调用 注意事项
+
+ 函数 重名  会导致 后面的函数 覆盖前面的
+
+1.以function关键字声明 与 以字面量形式声明 方式的注意问题
+aa()
+function  aa(){
+
+}
+
+aa()
+
+var aa=function (){
+
+}
+aa()
+
+2. script标签对 是分块解析的   函数的调用 应先定义 后调用
+<script>
+function aa(){
+}
+</script>
+
+<script>
+aa()
+</script>
+
+
+函数的参数
+可以通过参数 动态的改变函数体内对应的变量的值 使得同一函数得到不同的结果
+
+function  sum(val1,val2){
+    return val1+val2;
+}
+sum(10,20);
+sum(100,200);
+
+
+参数
+
+参数可以是任何类型的数据
+
+参数个数
+实参 和 形参 是一一对应的
+形参 > 实参  不会报错  多出来的形参  会 自动赋值 undefined
+
+形参 < 实参  不会报错  但是多出来这些实参  
+
+需要借助  arguments对象来获取 多出来的实参
+
+arguments
+
+函数 创建的时候 就会隐式的创建一个arguments对象
+
+保存的就是我们 实际参数的信息 (数量、值)
+属性：
+  arguments.length 实际参数的个数
+  arguments.callee 本身函数的引用
+  需要通过下标形式去访问   下标 从0开始计数
+  sum(100,200,300)
+ arguments 对象 他就是这么存的：
+   [100,200,300]
+     0   1    2
+
+   arguments[0]  取出  100
+   arguments[1]  取出  200
+   arguments[2]  取出  300
+
+
+sum(100,300,340,230,340,430)
+for(var i=0;i<arguments.length;i++){
+     arguments[i]
+}
+
+
+函数重载 
+让同一个函数 根据参数{{{ 类型 }}} {{{ 数量 }}} 可以实现 不同的功能
+
+typeof 检测变量里面存储的数据 是什么类型
+var  a=100；
+typeof a    // "number"
+
+if(typeof a=="number"){
+    
+
+}   
+
+
+argument.length ==1 
+
+
+
+
+函数返回值
+
+
+ 函数 默认情况下 没有返回值  undefined
+function aa(){
+    
+}
+aa()
+
+
+function aa(){
+  
+
+   return a;  
+}
+
+var val=aa()
+
+val+10;
+
+
+
+我们可以给函数 多个 return 但是这个要放在 判断里面
+
+if( false){
+  return 
+}
+
+
+alert(1);
+
+返回值 可以是任何数据类型
+       只能有一个
+    
+
+
+作用域   代码  在 范围里面 其作用
+
+
+全局：   html
+
+
+全局变量
+  var  a=100;   
+
+
+   function sum(){
+      局部变量
+      function sa(){
+         局部变量
+      }
+
+   }
+  
+ 
+  
+
+
+
+
+
+
+
+

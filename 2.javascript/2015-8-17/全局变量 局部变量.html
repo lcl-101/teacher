@@ -49,6 +49,17 @@
 	fn();//100  undfeined   100
 	alert(a);//200  100     100
 	*/
+	//4.
+	function aa(){	
+		bb();
+		function bb(){
+			alert(a);
+			//var a=200;
+		}
+		//var a=200;     //a undefined
+	}
+	var a=100;
+	aa();
 	</script>
 </head>
 <body>

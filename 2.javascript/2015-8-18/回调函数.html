@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+	/*
+把一个函数aa的指针(函数名)做为另一个函数bb的参数，当调用这个参数的时候，这个函数就叫做回调函数。*/
+	// function aa(val){
+	// 	alert(val);
+	// }
+	// bb(aa);
+	// function bb(callback){
+	// 	callback(10)
+	// }
+	function bb(callback){
+		callback(10);
+	}
+	bb(function(val){//10
+		val+=1;
+		alert(val); //11
+	})
+	bb(function(val){//10
+		val*=100;
+		document.write(val);//1000
+	})
+	</script>
+</head>
+<body>
+	
+</body>
+</html>

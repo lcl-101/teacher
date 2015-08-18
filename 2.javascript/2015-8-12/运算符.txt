@@ -101,7 +101,7 @@
 var aa;
 var bb=aa||100;
        
-   逻辑运算符可以对任何类型的数据进行运算但是在运算的时候，可以转换为对应的布尔值  Boolean  
+   逻辑运算符可以对任何类型的数据进行运算但是在运算的时候，可以转换为对应的布尔值  Boolean()  
    undefined   false
    null        false
    boolean     true   false

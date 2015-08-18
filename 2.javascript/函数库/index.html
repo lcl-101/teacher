@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="fn.js"></script>
+	<script>
+	// for(var i=0;i<10;i++){
+	// 	alert(i);	
+	// }
+	document.write("<table border=1>")
+	each(10,function (j){
+		document.write("<tr>")
+		each(10,function(i){
+			document.write("<td>第"+j+"行第"+i+"列</td>")
+		})
+		document.write("</tr>")
+	})
+	
+	document.write("</table>")
+	</script>
+</head>
+<body>
+	
+</body>
+</html>
